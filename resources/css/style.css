@@ -1,0 +1,146 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+    font-weight: 900 ;
+}
+
+.header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0
+  border-bottom: 1px solid seashell;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  z-index: 1;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.links {
+  text-decoration: underline;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px;
+}
+
+li a {
+  display: block;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+.main {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mission  {
+  background-image: url('../Images/img-mission-background.jpg');
+  background-size: 1200px 700px;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.mission-text {
+  background-color: black;
+  align-items: center;
+  display: inline-table;
+  width: 1200px;
+}
+
+.tea-month {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.tea-month-text {
+  width: 1000px
+}
+
+.tea-month-picture {
+  width: 300px;
+}
+
+.top-row,
+.bottom-row {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.picture-box {
+  height: 200px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.locations {
+  background-image: url('../Images/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.location-text {
+  width: 1200px;
+  margin-bottom: 15px;
+}
+
+.location-box {
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+  opacity: 1;
+  background: black;
+  display: inline-block;
+  justify-content: center;
+}
+
+.location-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom {
+  height: 200px;
+  margin: auto;
+}
+
+.footer {
+  text-align: left;
+  margin-left: 20px;
+}
